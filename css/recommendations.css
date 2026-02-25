@@ -1,0 +1,625 @@
+/* Skill Recommendations Page Styles */
+
+/* Recommendations Hero Section */
+.recommendations-hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 120px 0 80px;
+    text-align: center;
+}
+
+.recommendations-hero-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.recommendations-hero-content p {
+    font-size: 1.3rem;
+    opacity: 0.9;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+}
+
+.analysis-summary {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.summary-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+}
+
+.summary-item i {
+    color: #fbbf24;
+}
+
+/* Career Paths Section */
+.career-paths-section {
+    padding: 80px 0;
+    background: #f8fafc;
+}
+
+.career-paths-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.career-path-card {
+    background: white;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.career-path-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.career-path-card.featured {
+    border-color: #2563eb;
+    position: relative;
+}
+
+.career-path-card.featured::before {
+    content: 'Best Match';
+    position: absolute;
+    top: -10px;
+    left: 2rem;
+    background: #2563eb;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.career-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.match-score {
+    text-align: center;
+}
+
+.match-score .score {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #10b981;
+}
+
+.match-score .label {
+    font-size: 0.8rem;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.career-path-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.career-description {
+    color: #6b7280;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.career-details {
+    display: grid;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #374151;
+    font-size: 0.9rem;
+}
+
+.detail-item i {
+    color: #2563eb;
+    width: 16px;
+}
+
+.required-skills,
+.missing-skills {
+    margin-bottom: 1.5rem;
+}
+
+.required-skills h4,
+.missing-skills h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 0.75rem;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.skill-tag {
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.skill-tag.existing {
+    background: #d1fae5;
+    color: #065f46;
+    border: 1px solid #10b981;
+}
+
+.skill-tag.missing {
+    background: #fef3c7;
+    color: #92400e;
+    border: 1px solid #f59e0b;
+}
+
+.card-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.card-actions .btn {
+    flex: 1;
+    justify-content: center;
+}
+
+/* Skill Development Section */
+.skill-development-section {
+    padding: 80px 0;
+    background: white;
+}
+
+.skill-development-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.skill-development-card {
+    background: #f8fafc;
+    border-radius: 16px;
+    padding: 2rem;
+    position: relative;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.skill-development-card:hover {
+    transform: translateY(-5px);
+    background: white;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.skill-development-card.high-priority {
+    border-color: #ef4444;
+}
+
+.skill-development-card.medium-priority {
+    border-color: #f59e0b;
+}
+
+.skill-development-card.low-priority {
+    border-color: #6b7280;
+}
+
+.priority-badge {
+    position: absolute;
+    top: -10px;
+    right: 2rem;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: white;
+}
+
+.high-priority .priority-badge {
+    background: #ef4444;
+}
+
+.medium-priority .priority-badge {
+    background: #f59e0b;
+}
+
+.low-priority .priority-badge {
+    background: #6b7280;
+}
+
+.skill-development-card .skill-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.skill-development-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.skill-development-card p {
+    color: #6b7280;
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.learning-path {
+    margin-bottom: 2rem;
+}
+
+.path-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.path-item:last-child {
+    border-bottom: none;
+}
+
+.path-item i {
+    color: #2563eb;
+    margin-right: 0.75rem;
+}
+
+.path-item span:first-of-type {
+    flex: 1;
+    color: #374151;
+}
+
+.duration {
+    color: #6b7280;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.skill-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.skill-actions .btn {
+    flex: 1;
+    justify-content: center;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid #2563eb;
+    color: #2563eb;
+}
+
+.btn-outline:hover {
+    background: #2563eb;
+    color: white;
+}
+
+/* Market Insights Section */
+.market-insights-section {
+    padding: 80px 0;
+    background: #f8fafc;
+}
+
+.insights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.insight-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.insight-card:hover {
+    transform: translateY(-5px);
+}
+
+.insight-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.insight-header i {
+    font-size: 2rem;
+    color: #2563eb;
+}
+
+.insight-header h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.insight-content {
+    display: grid;
+    gap: 1rem;
+}
+
+.insight-item,
+.salary-range,
+.company-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.insight-item:last-child,
+.salary-range:last-child,
+.company-item:last-child {
+    border-bottom: none;
+}
+
+.role,
+.position,
+.company {
+    color: #374151;
+    font-weight: 500;
+}
+
+.growth {
+    color: #10b981;
+    font-weight: 600;
+}
+
+.range,
+.openings {
+    color: #6b7280;
+    font-weight: 500;
+}
+
+/* Action Plan Section */
+.action-plan-section {
+    padding: 80px 0;
+    background: white;
+}
+
+.action-plan-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.action-plan-content h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.action-plan-content p {
+    font-size: 1.2rem;
+    color: #6b7280;
+    margin-bottom: 3rem;
+}
+
+.timeline {
+    position: relative;
+    margin: 3rem 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #e5e7eb;
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.timeline-item:nth-child(odd) {
+    flex-direction: row;
+}
+
+.timeline-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.timeline-marker {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    z-index: 2;
+    margin: 0 2rem;
+}
+
+.timeline-marker span {
+    font-size: 1.5rem;
+}
+
+.timeline-marker small {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+.timeline-content {
+    flex: 1;
+    background: #f8fafc;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: left;
+    max-width: 300px;
+}
+
+.timeline-content h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.timeline-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.timeline-content li {
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.timeline-content li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #10b981;
+    font-weight: bold;
+}
+
+.action-plan-cta {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .recommendations-hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .analysis-summary {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .career-paths-grid,
+    .skill-development-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .card-actions,
+    .skill-actions {
+        flex-direction: column;
+    }
+    
+    .timeline::before {
+        left: 50px;
+    }
+    
+    .timeline-item {
+        flex-direction: row !important;
+        align-items: flex-start;
+    }
+    
+    .timeline-marker {
+        width: 80px;
+        height: 80px;
+        margin: 0 1rem 0 0;
+    }
+    
+    .timeline-content {
+        max-width: none;
+    }
+    
+    .action-plan-cta {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .action-plan-cta .btn {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .recommendations-hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .career-path-card,
+    .skill-development-card {
+        padding: 1.5rem;
+    }
+    
+    .timeline-marker {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .timeline-marker span {
+        font-size: 1.2rem;
+    }
+}

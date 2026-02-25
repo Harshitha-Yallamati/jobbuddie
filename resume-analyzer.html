@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Analyzer - JobBuddy</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/analyzer.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-briefcase"></i>
+                <span>JobBuddy</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="resume-analyzer.html" class="nav-link active">Resume Analyzer</a>
+                </li>
+                <li class="nav-item">
+                    <a href="skill-recommendations.html" class="nav-link">Skill Recommendations</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="analyzer-hero">
+        <div class="container">
+            <div class="analyzer-hero-content">
+                <h1>AI-Powered Resume Analysis</h1>
+                <p>Upload your resume and share your interests to get personalized career recommendations and skill development plans</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upload Section -->
+    <section class="upload-section">
+        <div class="container">
+            <div class="upload-container">
+                <div class="upload-steps">
+                    <div class="step-indicator">
+                        <div class="step active" data-step="1">
+                            <div class="step-number">1</div>
+                            <div class="step-label">Upload Resume</div>
+                        </div>
+                        <div class="step-line"></div>
+                        <div class="step" data-step="2">
+                            <div class="step-number">2</div>
+                            <div class="step-label">Share Interests</div>
+                        </div>
+                        <div class="step-line"></div>
+                        <div class="step" data-step="3">
+                            <div class="step-number">3</div>
+                            <div class="step-label">Get Results</div>
+                        </div>
+                    </div>
+
+                    <!-- Step 1: Resume Upload -->
+                    <div class="form-step active" id="step-1">
+                        <div class="form-card">
+                            <h2>Upload Your Resume</h2>
+                            <p>Upload your resume in PDF, DOC, or DOCX format for AI analysis</p>
+                            
+                            <div class="upload-area" id="upload-area">
+                                <div class="upload-icon">
+                                    <i class="fas fa-cloud-upload-alt"></i>
+                                </div>
+                                <h3>Drag & Drop your resume here</h3>
+                                <p>or <span class="upload-link">browse files</span></p>
+                                <input type="file" id="resume-file" accept=".pdf,.doc,.docx" hidden>
+                                <div class="file-info">
+                                    <small>Supported formats: PDF, DOC, DOCX (Max 5MB)</small>
+                                </div>
+                            </div>
+
+                            <div class="uploaded-file" id="uploaded-file" style="display: none;">
+                                <div class="file-preview">
+                                    <i class="fas fa-file-alt"></i>
+                                    <div class="file-details">
+                                        <span class="file-name"></span>
+                                        <span class="file-size"></span>
+                                    </div>
+                                    <button class="remove-file" id="remove-file">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="form-actions">
+                                <button class="btn btn-primary" id="next-step-1" disabled>
+                                    Next: Share Your Interests
+                                    <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Interests -->
+                    <div class="form-step" id="step-2">
+                        <div class="form-card">
+                            <h2>Tell Us About Your Interests</h2>
+                            <p>Help us understand your passions and career preferences</p>
+
+                            <form id="interests-form">
+                                <div class="form-group">
+                                    <label for="career-interests">Career Interests</label>
+                                    <textarea id="career-interests" placeholder="What type of work excites you? (e.g., technology, healthcare, creative arts, business, education)"></textarea>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="preferred-location">Preferred Work Location</label>
+                                    <select id="preferred-location">
+                                        <option value="">Select your location</option>
+                                        <option value="remote">Remote Work</option>
+                                        <option value="new-york">New York, NY</option>
+                                        <option value="san-francisco">San Francisco, CA</option>
+                                        <option value="chicago">Chicago, IL</option>
+                                        <option value="austin">Austin, TX</option>
+                                        <option value="seattle">Seattle, WA</option>
+                                        <option value="boston">Boston, MA</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="experience-level">Experience Level</label>
+                                    <select id="experience-level">
+                                        <option value="">Select your level</option>
+                                        <option value="entry">Entry Level (0-2 years)</option>
+                                        <option value="junior">Junior Level (2-4 years)</option>
+                                        <option value="mid">Mid Level (4-7 years)</option>
+                                        <option value="senior">Senior Level (7+ years)</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Preferred Work Environment</label>
+                                    <div class="checkbox-group">
+                                        <label class="checkbox-label">
+                                            <input type="checkbox" value="startup">
+                                            <span class="checkmark"></span>
+                                            Startup Environment
+                                        </label>
+                                        <label class="checkbox-label">
+                                            <input type="checkbox" value="corporate">
+                                            <span class="checkmark"></span>
+                                            Corporate Setting
+                                        </label>
+                                        <label class="checkbox-label">
+                                            <input type="checkbox" value="nonprofit">
+                                            <span class="checkmark"></span>
+                                            Non-Profit Organization
+                                        </label>
+                                        <label class="checkbox-label">
+                                            <input type="checkbox" value="freelance">
+                                            <span class="checkmark"></span>
+                                            Freelance/Consulting
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="learning-goals">Learning & Development Goals</label>
+                                    <textarea id="learning-goals" placeholder="What skills would you like to develop? What are your career goals?"></textarea>
+                                </div>
+                            </form>
+
+                            <div class="form-actions">
+                                <button class="btn btn-secondary" id="prev-step-2">
+                                    <i class="fas fa-arrow-left"></i>
+                                    Previous
+                                </button>
+                                <button class="btn btn-primary" id="analyze-resume">
+                                    <i class="fas fa-brain"></i>
+                                    Analyze My Profile
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Results -->
+                    <div class="form-step" id="step-3">
+                        <div class="form-card">
+                            <div class="analysis-loading" id="analysis-loading">
+                                <div class="loading-spinner"></div>
+                                <h3>Analyzing Your Profile...</h3>
+                                <p>Our AI is processing your resume and interests to generate personalized recommendations</p>
+                                <div class="loading-steps">
+                                    <div class="loading-step">
+                                        <i class="fas fa-check"></i>
+                                        <span>Resume parsed successfully</span>
+                                    </div>
+                                    <div class="loading-step">
+                                        <i class="fas fa-spinner fa-spin"></i>
+                                        <span>Analyzing skills and experience</span>
+                                    </div>
+                                    <div class="loading-step">
+                                        <span>Matching with job market data</span>
+                                    </div>
+                                    <div class="loading-step">
+                                        <span>Generating recommendations</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="analysis-complete" id="analysis-complete" style="display: none;">
+                                <div class="success-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <h3>Analysis Complete!</h3>
+                                <p>Your personalized career recommendations are ready</p>
+                                
+                                <div class="results-preview">
+                                    <div class="result-item">
+                                        <i class="fas fa-briefcase"></i>
+                                        <div>
+                                            <h4>3 Career Paths Identified</h4>
+                                            <p>Based on your skills and interests</p>
+                                        </div>
+                                    </div>
+                                    <div class="result-item">
+                                        <i class="fas fa-graduation-cap"></i>
+                                        <div>
+                                            <h4>5 Skill Development Areas</h4>
+                                            <p>To boost your employability</p>
+                                        </div>
+                                    </div>
+                                    <div class="result-item">
+                                        <i class="fas fa-chart-line"></i>
+                                        <div>
+                                            <h4>Local Job Market Insights</h4>
+                                            <p>Trends and opportunities in your area</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-actions">
+                                    <a href="skill-recommendations.html" class="btn btn-primary btn-large">
+                                        <i class="fas fa-eye"></i>
+                                        View My Recommendations
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="analyzer-features">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our AI Analyzes</h2>
+                <p>Comprehensive analysis of your professional profile</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Technical Skills</h3>
+                    <p>Programming languages, software proficiency, and technical competencies</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Soft Skills</h3>
+                    <p>Communication, leadership, teamwork, and interpersonal abilities</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Education & Certifications</h3>
+                    <p>Academic background, professional certifications, and continuous learning</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Work Experience</h3>
+                    <p>Career progression, industry experience, and professional achievements</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-briefcase"></i>
+                        <span>JobBuddy</span>
+                    </div>
+                    <p>Empowering unemployed youth with AI-driven career guidance and skill development.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="resume-analyzer.html">Resume Analyzer</a></li>
+                        <li><a href="skill-recommendations.html">Skill Recommendations</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> info@jobbuddy.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 JobBuddy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/analyzer.js"></script>
+</body>
+</html>

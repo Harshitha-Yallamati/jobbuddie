@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Recommendations - JobBuddy</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/recommendations.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-briefcase"></i>
+                <span>JobBuddy</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="resume-analyzer.html" class="nav-link">Resume Analyzer</a>
+                </li>
+                <li class="nav-item">
+                    <a href="skill-recommendations.html" class="nav-link active">Skill Recommendations</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="recommendations-hero">
+        <div class="container">
+            <div class="recommendations-hero-content">
+                <h1>Your Personalized Career Recommendations</h1>
+                <p>Based on AI analysis of your resume and interests, here are your tailored career paths and skill development opportunities</p>
+                <div class="analysis-summary">
+                    <div class="summary-item">
+                        <i class="fas fa-user"></i>
+                        <span>Alex Johnson</span>
+                    </div>
+                    <div class="summary-item">
+                        <i class="fas fa-calendar"></i>
+                        <span>Analyzed on July 28, 2024</span>
+                    </div>
+                    <div class="summary-item">
+                        <i class="fas fa-chart-line"></i>
+                        <span>85% Match Score</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Paths Section -->
+    <section class="career-paths-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Recommended Career Paths</h2>
+                <p>Top 3 career opportunities that align with your skills and interests</p>
+            </div>
+            <div class="career-paths-grid">
+                <div class="career-path-card featured">
+                    <div class="card-header">
+                        <div class="career-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="match-score">
+                            <span class="score">92%</span>
+                            <span class="label">Match</span>
+                        </div>
+                    </div>
+                    <h3>Full-Stack Web Developer</h3>
+                    <p class="career-description">Build end-to-end web applications using modern technologies like React, Node.js, and databases.</p>
+                    
+                    <div class="career-details">
+                        <div class="detail-item">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>$65,000 - $95,000/year</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>15% job growth</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Remote & On-site</span>
+                        </div>
+                    </div>
+
+                    <div class="required-skills">
+                        <h4>Skills You Have</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag existing">JavaScript</span>
+                            <span class="skill-tag existing">HTML/CSS</span>
+                            <span class="skill-tag existing">Git</span>
+                            <span class="skill-tag existing">Problem Solving</span>
+                        </div>
+                    </div>
+
+                    <div class="missing-skills">
+                        <h4>Skills to Develop</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag missing">React.js</span>
+                            <span class="skill-tag missing">Node.js</span>
+                            <span class="skill-tag missing">MongoDB</span>
+                        </div>
+                    </div>
+
+                    <div class="card-actions">
+                        <button class="btn btn-primary">View Learning Path</button>
+                        <button class="btn btn-secondary">Find Jobs</button>
+                    </div>
+                </div>
+
+                <div class="career-path-card">
+                    <div class="card-header">
+                        <div class="career-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="match-score">
+                            <span class="score">87%</span>
+                            <span class="label">Match</span>
+                        </div>
+                    </div>
+                    <h3>Mobile App Developer</h3>
+                    <p class="career-description">Create mobile applications for iOS and Android platforms using native or cross-platform technologies.</p>
+                    
+                    <div class="career-details">
+                        <div class="detail-item">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>$70,000 - $105,000/year</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>22% job growth</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Hybrid work</span>
+                        </div>
+                    </div>
+
+                    <div class="required-skills">
+                        <h4>Skills You Have</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag existing">JavaScript</span>
+                            <span class="skill-tag existing">Problem Solving</span>
+                            <span class="skill-tag existing">UI/UX Basics</span>
+                        </div>
+                    </div>
+
+                    <div class="missing-skills">
+                        <h4>Skills to Develop</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag missing">React Native</span>
+                            <span class="skill-tag missing">Swift</span>
+                            <span class="skill-tag missing">Kotlin</span>
+                            <span class="skill-tag missing">Mobile Design</span>
+                        </div>
+                    </div>
+
+                    <div class="card-actions">
+                        <button class="btn btn-primary">View Learning Path</button>
+                        <button class="btn btn-secondary">Find Jobs</button>
+                    </div>
+                </div>
+
+                <div class="career-path-card">
+                    <div class="card-header">
+                        <div class="career-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="match-score">
+                            <span class="score">81%</span>
+                            <span class="label">Match</span>
+                        </div>
+                    </div>
+                    <h3>Data Analyst</h3>
+                    <p class="career-description">Analyze data to help organizations make informed business decisions using statistical tools and visualization.</p>
+                    
+                    <div class="career-details">
+                        <div class="detail-item">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>$55,000 - $85,000/year</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>25% job growth</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Remote friendly</span>
+                        </div>
+                    </div>
+
+                    <div class="required-skills">
+                        <h4>Skills You Have</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag existing">Excel</span>
+                            <span class="skill-tag existing">Critical Thinking</span>
+                            <span class="skill-tag existing">Mathematics</span>
+                        </div>
+                    </div>
+
+                    <div class="missing-skills">
+                        <h4>Skills to Develop</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag missing">Python</span>
+                            <span class="skill-tag missing">SQL</span>
+                            <span class="skill-tag missing">Tableau</span>
+                            <span class="skill-tag missing">Statistics</span>
+                        </div>
+                    </div>
+
+                    <div class="card-actions">
+                        <button class="btn btn-primary">View Learning Path</button>
+                        <button class="btn btn-secondary">Find Jobs</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill Development Section -->
+    <section class="skill-development-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Priority Skill Development Areas</h2>
+                <p>Focus on these skills to maximize your career opportunities</p>
+            </div>
+            <div class="skill-development-grid">
+                <div class="skill-development-card high-priority">
+                    <div class="priority-badge">High Priority</div>
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React.js Development</h3>
+                    <p>Master the most popular frontend framework for building modern web applications.</p>
+                    <div class="learning-path">
+                        <div class="path-item">
+                            <i class="fas fa-play-circle"></i>
+                            <span>React Fundamentals Course</span>
+                            <span class="duration">20 hours</span>
+                        </div>
+                        <div class="path-item">
+                            <i class="fas fa-code"></i>
+                            <span>Build 3 Projects</span>
+                            <span class="duration">40 hours</span>
+                        </div>
+                        <div class="path-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>React Certification</span>
+                            <span class="duration">5 hours</span>
+                        </div>
+                    </div>
+                    <div class="skill-actions">
+                        <button class="btn btn-primary">Start Learning</button>
+                        <button class="btn btn-outline">View Resources</button>
+                    </div>
+                </div>
+
+                <div class="skill-development-card medium-priority">
+                    <div class="priority-badge">Medium Priority</div>
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Learn server-side programming with Node.js and database management.</p>
+                    <div class="learning-path">
+                        <div class="path-item">
+                            <i class="fas fa-play-circle"></i>
+                            <span>Node.js Basics</span>
+                            <span class="duration">15 hours</span>
+                        </div>
+                        <div class="path-item">
+                            <i class="fas fa-database"></i>
+                            <span>Database Design</span>
+                            <span class="duration">25 hours</span>
+                        </div>
+                        <div class="path-item">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>API Development</span>
+                            <span class="duration">30 hours</span>
+                        </div>
+                    </div>
+                    <div class="skill-actions">
+                        <button class="btn btn-primary">Start Learning</button>
+                        <button class="btn btn-outline">View Resources</button>
+                    </div>
+                </div>
+
+                <div class="skill-development-card low-priority">
+                    <div class="priority-badge">Future Focus</div>
+                    <div class="skill-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Technologies</h3>
+                    <p>Understand cloud platforms like AWS, Azure for scalable application deployment.</p>
+                    <div class="learning-path">
+                        <div class="path-item">
+                            <i class="fas fa-play-circle"></i>
+                            <span>Cloud Fundamentals</span>
+                            <span class="duration">12 hours</span>
+                        </div>
+                        <div class="path-item">
+                            <i class="fas fa-tools"></i>
+                            <span>AWS Basics</span>
+                            <span class="duration">20 hours</span>
+                        </div>
+                        <div class="path-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>Deployment Practice</span>
+                            <span class="duration">15 hours</span>
+                        </div>
+                    </div>
+                    <div class="skill-actions">
+                        <button class="btn btn-primary">Start Learning</button>
+                        <button class="btn btn-outline">View Resources</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Market Insights Section -->
+    <section class="market-insights-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Local Job Market Insights</h2>
+                <p>Current trends and opportunities in your area</p>
+            </div>
+            <div class="insights-grid">
+                <div class="insight-card">
+                    <div class="insight-header">
+                        <i class="fas fa-trending-up"></i>
+                        <h3>Growing Demand</h3>
+                    </div>
+                    <div class="insight-content">
+                        <div class="insight-item">
+                            <span class="role">Frontend Developers</span>
+                            <span class="growth">+28%</span>
+                        </div>
+                        <div class="insight-item">
+                            <span class="role">Full-Stack Engineers</span>
+                            <span class="growth">+35%</span>
+                        </div>
+                        <div class="insight-item">
+                            <span class="role">Mobile Developers</span>
+                            <span class="growth">+22%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="insight-card">
+                    <div class="insight-header">
+                        <i class="fas fa-dollar-sign"></i>
+                        <h3>Salary Trends</h3>
+                    </div>
+                    <div class="insight-content">
+                        <div class="salary-range">
+                            <span class="position">Junior Developer</span>
+                            <span class="range">$45K - $65K</span>
+                        </div>
+                        <div class="salary-range">
+                            <span class="position">Mid-Level Developer</span>
+                            <span class="range">$65K - $95K</span>
+                        </div>
+                        <div class="salary-range">
+                            <span class="position">Senior Developer</span>
+                            <span class="range">$95K - $130K</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="insight-card">
+                    <div class="insight-header">
+                        <i class="fas fa-building"></i>
+                        <h3>Top Hiring Companies</h3>
+                    </div>
+                    <div class="insight-content">
+                        <div class="company-item">
+                            <span class="company">TechCorp Solutions</span>
+                            <span class="openings">15 openings</span>
+                        </div>
+                        <div class="company-item">
+                            <span class="company">Digital Innovations</span>
+                            <span class="openings">12 openings</span>
+                        </div>
+                        <div class="company-item">
+                            <span class="company">StartupHub Inc.</span>
+                            <span class="openings">8 openings</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Action Plan Section -->
+    <section class="action-plan-section">
+        <div class="container">
+            <div class="action-plan-content">
+                <h2>Your 90-Day Action Plan</h2>
+                <p>A structured roadmap to achieve your career goals</p>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <span>30</span>
+                            <small>Days</small>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Foundation Building</h3>
+                            <ul>
+                                <li>Complete React.js fundamentals course</li>
+                                <li>Build your first React project</li>
+                                <li>Update your LinkedIn profile</li>
+                                <li>Start networking in tech communities</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <span>60</span>
+                            <small>Days</small>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Skill Enhancement</h3>
+                            <ul>
+                                <li>Learn Node.js and Express.js</li>
+                                <li>Build a full-stack application</li>
+                                <li>Contribute to open-source projects</li>
+                                <li>Apply to 5-10 relevant positions</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <span>90</span>
+                            <small>Days</small>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Career Launch</h3>
+                            <ul>
+                                <li>Complete portfolio with 3 projects</li>
+                                <li>Prepare for technical interviews</li>
+                                <li>Attend tech meetups and conferences</li>
+                                <li>Secure your first developer role</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="action-plan-cta">
+                    <button class="btn btn-primary btn-large">Download Full Action Plan</button>
+                    <button class="btn btn-secondary">Schedule Mentorship Call</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-briefcase"></i>
+                        <span>JobBuddy</span>
+                    </div>
+                    <p>Empowering unemployed youth with AI-driven career guidance and skill development.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="resume-analyzer.html">Resume Analyzer</a></li>
+                        <li><a href="skill-recommendations.html">Skill Recommendations</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> info@jobbuddy.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 JobBuddy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/recommendations.js"></script>
+</body>
+</html>

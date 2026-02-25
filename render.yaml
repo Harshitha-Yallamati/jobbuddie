@@ -1,0 +1,22 @@
+# Render.com configuration file
+# Docs: https://render.com/docs/deploy-next-js#deploy-using-render-configuration-files
+
+services:
+  - type: web
+    name: jobbuddy
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: MONGODB_URI
+        fromDatabase:
+          name: mongodb-atlas
+          property: connectionString
+    plan: free
+    autoDeploy: true
+    region: oregon
+    healthCheckPath: /
