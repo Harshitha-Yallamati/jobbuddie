@@ -4,6 +4,7 @@ const cors = require('cors');
 const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
+const os = require('os');
 const { v4: uuidv4 } = require('uuid');
 const connectDB = require('./config/db');
 const User = require('./models/User');
@@ -30,17 +31,8 @@ app.use(cors({
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 
-// Serve static files from the React app in production
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, 'build')));
-  
-  // Handle React routing, return all requests to React app
-  app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'build', 'index.html'));
-  });
-} else {
-  app.use(express.static('.'));
-}
+// Serve uploaded/downloaded public assets without interfering with API routes.
+app.use('/public', express.static(path.join(__dirname, 'public')));
 
 // Configure multer for file uploads
 const storage = multer.diskStorage({
@@ -65,22 +57,24 @@ const storage = multer.diskStorage({
 const upload = multer({ 
     storage: storage,
     fileFilter: (req, file, cb) => {
-        const allowedTypes = /pdf|doc|docx|txt/;
-        const extname = allowedTypes.test(path.extname(file.originalname).toLowerCase());
-        const mimetype = allowedTypes.test(file.mimetype);
+        const allowedExtensions = new Set(['.pdf', '.doc', '.docx', '.txt']);
+        const allowedMimeTypes = new Set([
+            'application/pdf',
+            'application/msword',
+            'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+            'text/plain',
+            'application/octet-stream'
+        ]);
+        const extname = allowedExtensions.has(path.extname(file.originalname).toLowerCase());
+        const mimetype = allowedMimeTypes.has(file.mimetype);
         
-        if (mimetype && extname) {
+        if (extname && mimetype) {
             return cb(null, true);
         } else {
             cb(new Error('Only PDF, DOC, DOCX, and TXT files are allowed'));
         }
     },
     limits: { fileSize: 5 * 1024 * 1024 } // 5MB limit
-});
-
-// Routes
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // Resume analysis endpoint
@@ -133,6 +127,19 @@ app.get('/api/trending-skills', (req, res) => {
         skills: trendingSkills
     });
 });
+
+// Serve the React app in production after API routes have been registered.
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static(path.join(__dirname, 'build')));
+
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  });
+} else {
+  app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
+  });
+}
 
 // Error handling middleware
 app.use((error, req, res, next) => {

@@ -1,0 +1,1235 @@
+{
+  "React.js Development": [
+    {
+      "provider": "Official Documentation",
+      "title": "React Learn",
+      "url": "https://react.dev/learn"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "React Articles and Tutorials",
+      "url": "https://www.freecodecamp.org/news/tag/react/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "React Courses",
+      "url": "https://www.coursera.org/search?query=react"
+    },
+    {
+      "provider": "Udemy",
+      "title": "React Courses",
+      "url": "https://www.udemy.com/courses/search/?q=react"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "ReactJS Tutorial",
+      "url": "https://www.geeksforgeeks.org/reactjs/reactjs-tutorial/"
+    }
+  ],
+  "Backend Development": [
+    {
+      "provider": "Official Documentation",
+      "title": "Node.js Learn",
+      "url": "https://nodejs.org/en/learn"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Back End Development and APIs",
+      "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Backend Development Courses",
+      "url": "https://www.coursera.org/search?query=backend%20development"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Backend Development Courses",
+      "url": "https://www.udemy.com/courses/search/?q=backend%20development"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Backend Development",
+      "url": "https://www.geeksforgeeks.org/backend-development/"
+    },
+    {
+      "provider": "LeetCode",
+      "title": "Database Problems",
+      "url": "https://leetcode.com/problemset/database/"
+    },
+    {
+      "provider": "HackerRank",
+      "title": "SQL Practice",
+      "url": "https://www.hackerrank.com/domains/sql"
+    }
+  ],
+  "Cloud Technologies": [
+    {
+      "provider": "Official Documentation",
+      "title": "AWS Documentation",
+      "url": "https://docs.aws.amazon.com/"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Cloud Computing Articles",
+      "url": "https://www.freecodecamp.org/news/tag/cloud-computing/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Cloud Computing Courses",
+      "url": "https://www.coursera.org/search?query=cloud%20computing"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Cloud Computing Courses",
+      "url": "https://www.udemy.com/courses/search/?q=cloud%20computing"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Cloud Computing Tutorial",
+      "url": "https://www.geeksforgeeks.org/cloud-computing/cloud-computing/"
+    }
+  ],
+  "JavaScript": [
+    {
+      "provider": "Official Documentation",
+      "title": "MDN JavaScript Guide",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "JavaScript Algorithms and Data Structures",
+      "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "JavaScript Courses",
+      "url": "https://www.coursera.org/search?query=javascript"
+    },
+    {
+      "provider": "Udemy",
+      "title": "JavaScript Courses",
+      "url": "https://www.udemy.com/courses/search/?q=javascript"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "JavaScript Tutorial",
+      "url": "https://www.geeksforgeeks.org/javascript/javascript-tutorial/"
+    },
+    {
+      "provider": "LeetCode",
+      "title": "JavaScript Problems",
+      "url": "https://leetcode.com/problemset/"
+    },
+    {
+      "provider": "HackerRank",
+      "title": "JavaScript Practice",
+      "url": "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript"
+    }
+  ],
+  "TypeScript": [
+    {
+      "provider": "Official Documentation",
+      "title": "TypeScript Handbook",
+      "url": "https://www.typescriptlang.org/docs/"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "TypeScript Articles",
+      "url": "https://www.freecodecamp.org/news/tag/typescript/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "TypeScript Courses",
+      "url": "https://www.coursera.org/search?query=typescript"
+    },
+    {
+      "provider": "Udemy",
+      "title": "TypeScript Courses",
+      "url": "https://www.udemy.com/courses/search/?q=typescript"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "TypeScript Tutorial",
+      "url": "https://www.geeksforgeeks.org/typescript/typescript-tutorial/"
+    },
+    {
+      "provider": "LeetCode",
+      "title": "TypeScript Problems",
+      "url": "https://leetcode.com/problemset/"
+    },
+    {
+      "provider": "HackerRank",
+      "title": "JavaScript Practice",
+      "url": "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript"
+    }
+  ],
+  "Node.js": [
+    {
+      "provider": "Official Documentation",
+      "title": "Node.js Learn",
+      "url": "https://nodejs.org/en/learn"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Back End Development and APIs",
+      "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Node.js Courses",
+      "url": "https://www.coursera.org/search?query=node.js"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Node.js Courses",
+      "url": "https://www.udemy.com/courses/search/?q=node.js"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Node.js Tutorial",
+      "url": "https://www.geeksforgeeks.org/node-js/nodejs/"
+    },
+    {
+      "provider": "LeetCode",
+      "title": "JavaScript Problems",
+      "url": "https://leetcode.com/problemset/"
+    },
+    {
+      "provider": "HackerRank",
+      "title": "JavaScript Practice",
+      "url": "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript"
+    }
+  ],
+  "Python": [
+    {
+      "provider": "Official Documentation",
+      "title": "Python Tutorial",
+      "url": "https://docs.python.org/3/tutorial/"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Scientific Computing with Python",
+      "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Python Courses",
+      "url": "https://www.coursera.org/search?query=python"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Python Courses",
+      "url": "https://www.udemy.com/courses/search/?q=python"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Python Tutorial",
+      "url": "https://www.geeksforgeeks.org/python/python-programming-language-tutorial/"
+    },
+    {
+      "provider": "LeetCode",
+      "title": "Python Problems",
+      "url": "https://leetcode.com/problemset/"
+    },
+    {
+      "provider": "HackerRank",
+      "title": "Python Practice",
+      "url": "https://www.hackerrank.com/domains/python"
+    }
+  ],
+  "SQL": [
+    {
+      "provider": "Official Documentation",
+      "title": "PostgreSQL Tutorial",
+      "url": "https://www.postgresql.org/docs/current/tutorial.html"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Relational Database Certification",
+      "url": "https://www.freecodecamp.org/learn/relational-database/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "SQL Courses",
+      "url": "https://www.coursera.org/search?query=sql"
+    },
+    {
+      "provider": "Udemy",
+      "title": "SQL Courses",
+      "url": "https://www.udemy.com/courses/search/?q=sql"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "SQL Tutorial",
+      "url": "https://www.geeksforgeeks.org/sql/sql-tutorial/"
+    },
+    {
+      "provider": "LeetCode",
+      "title": "Database Problems",
+      "url": "https://leetcode.com/problemset/database/"
+    },
+    {
+      "provider": "HackerRank",
+      "title": "SQL Practice",
+      "url": "https://www.hackerrank.com/domains/sql"
+    }
+  ],
+  "MongoDB": [
+    {
+      "provider": "Official Documentation",
+      "title": "MongoDB Documentation",
+      "url": "https://www.mongodb.com/docs/"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "MongoDB Articles",
+      "url": "https://www.freecodecamp.org/news/tag/mongodb/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "MongoDB Courses",
+      "url": "https://www.coursera.org/search?query=mongodb"
+    },
+    {
+      "provider": "Udemy",
+      "title": "MongoDB Courses",
+      "url": "https://www.udemy.com/courses/search/?q=mongodb"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "MongoDB Tutorial",
+      "url": "https://www.geeksforgeeks.org/mongodb/mongodb-tutorial/"
+    },
+    {
+      "provider": "LeetCode",
+      "title": "Database Problems",
+      "url": "https://leetcode.com/problemset/database/"
+    },
+    {
+      "provider": "HackerRank",
+      "title": "Databases Practice",
+      "url": "https://www.hackerrank.com/domains/databases"
+    }
+  ],
+  "Docker": [
+    {
+      "provider": "Official Documentation",
+      "title": "Docker Get Started",
+      "url": "https://docs.docker.com/get-started/"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Docker Articles",
+      "url": "https://www.freecodecamp.org/news/tag/docker/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Docker Courses",
+      "url": "https://www.coursera.org/search?query=docker"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Docker Courses",
+      "url": "https://www.udemy.com/courses/search/?q=docker"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Docker Tutorial",
+      "url": "https://www.geeksforgeeks.org/devops/docker-tutorial/"
+    }
+  ],
+  "AWS": [
+    {
+      "provider": "Official Documentation",
+      "title": "AWS Documentation",
+      "url": "https://docs.aws.amazon.com/"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "AWS Articles",
+      "url": "https://www.freecodecamp.org/news/tag/aws/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "AWS Courses",
+      "url": "https://www.coursera.org/search?query=aws"
+    },
+    {
+      "provider": "Udemy",
+      "title": "AWS Courses",
+      "url": "https://www.udemy.com/courses/search/?q=aws"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "AWS Tutorial",
+      "url": "https://www.geeksforgeeks.org/cloud-computing/amazon-web-services-aws/"
+    }
+  ],
+  "Machine Learning": [
+    {
+      "provider": "Official Documentation",
+      "title": "scikit-learn User Guide",
+      "url": "https://scikit-learn.org/stable/user_guide.html"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Machine Learning with Python",
+      "url": "https://www.freecodecamp.org/learn/machine-learning-with-python/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Machine Learning Courses",
+      "url": "https://www.coursera.org/search?query=machine%20learning"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Machine Learning Courses",
+      "url": "https://www.udemy.com/courses/search/?q=machine%20learning"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Machine Learning Tutorial",
+      "url": "https://www.geeksforgeeks.org/machine-learning/machine-learning/"
+    },
+    {
+      "provider": "LeetCode",
+      "title": "Algorithms Practice",
+      "url": "https://leetcode.com/problemset/"
+    },
+    {
+      "provider": "HackerRank",
+      "title": "Artificial Intelligence Practice",
+      "url": "https://www.hackerrank.com/domains/ai"
+    }
+  ],
+  "HTML": [
+    {
+      "provider": "Official Documentation",
+      "title": "MDN HTML",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Responsive Web Design",
+      "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "HTML Courses",
+      "url": "https://www.coursera.org/search?query=html"
+    },
+    {
+      "provider": "Udemy",
+      "title": "HTML Courses",
+      "url": "https://www.udemy.com/courses/search/?q=html"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "HTML Tutorial",
+      "url": "https://www.geeksforgeeks.org/html/html-tutorial/"
+    }
+  ],
+  "CSS": [
+    {
+      "provider": "Official Documentation",
+      "title": "MDN CSS",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Responsive Web Design",
+      "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "CSS Courses",
+      "url": "https://www.coursera.org/search?query=css"
+    },
+    {
+      "provider": "Udemy",
+      "title": "CSS Courses",
+      "url": "https://www.udemy.com/courses/search/?q=css"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "CSS Tutorial",
+      "url": "https://www.geeksforgeeks.org/css/css-tutorial/"
+    }
+  ],
+  "Git": [
+    {
+      "provider": "Official Documentation",
+      "title": "Git Tutorial",
+      "url": "https://git-scm.com/docs/gittutorial"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Git Articles",
+      "url": "https://www.freecodecamp.org/news/tag/git/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Git Courses",
+      "url": "https://www.coursera.org/search?query=git"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Git Courses",
+      "url": "https://www.udemy.com/courses/search/?q=git"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Git Tutorial",
+      "url": "https://www.geeksforgeeks.org/git/git-tutorial/"
+    }
+  ],
+  "Express.js": [
+    {
+      "provider": "Official Documentation",
+      "title": "Express Documentation",
+      "url": "https://expressjs.com/"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Back End Development and APIs",
+      "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Express.js Courses",
+      "url": "https://www.coursera.org/search?query=express.js"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Express.js Courses",
+      "url": "https://www.udemy.com/courses/search/?q=express.js"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Express.js Tutorial",
+      "url": "https://www.geeksforgeeks.org/node-js/express-js/"
+    },
+    {
+      "provider": "LeetCode",
+      "title": "JavaScript Practice",
+      "url": "https://leetcode.com/problemset/"
+    },
+    {
+      "provider": "HackerRank",
+      "title": "JavaScript Practice",
+      "url": "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript"
+    }
+  ],
+  "REST APIs": [
+    {
+      "provider": "Official Documentation",
+      "title": "MDN REST Guide",
+      "url": "https://developer.mozilla.org/en-US/docs/Glossary/REST"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "APIs and Microservices Articles",
+      "url": "https://www.freecodecamp.org/news/tag/api/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "REST API Courses",
+      "url": "https://www.coursera.org/search?query=rest%20api"
+    },
+    {
+      "provider": "Udemy",
+      "title": "REST API Courses",
+      "url": "https://www.udemy.com/courses/search/?q=rest%20api"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "REST API Tutorial",
+      "url": "https://www.geeksforgeeks.org/rest-api-introduction/"
+    },
+    {
+      "provider": "LeetCode",
+      "title": "Programming Practice",
+      "url": "https://leetcode.com/problemset/"
+    },
+    {
+      "provider": "HackerRank",
+      "title": "Problem Solving Practice",
+      "url": "https://www.hackerrank.com/domains/algorithms"
+    }
+  ],
+  "Redux": [
+    {
+      "provider": "Official Documentation",
+      "title": "Redux Essentials",
+      "url": "https://redux.js.org/tutorials/essentials/part-1-overview-concepts"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Redux Articles",
+      "url": "https://www.freecodecamp.org/news/tag/redux/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Redux Courses",
+      "url": "https://www.coursera.org/search?query=redux"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Redux Courses",
+      "url": "https://www.udemy.com/courses/search/?q=redux"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Redux Tutorial",
+      "url": "https://www.geeksforgeeks.org/reactjs/redux-and-redux-toolkit/"
+    }
+  ],
+  "Next.js": [
+    {
+      "provider": "Official Documentation",
+      "title": "Next.js Learn",
+      "url": "https://nextjs.org/learn"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Next.js Articles",
+      "url": "https://www.freecodecamp.org/news/tag/nextjs/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Next.js Courses",
+      "url": "https://www.coursera.org/search?query=next.js"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Next.js Courses",
+      "url": "https://www.udemy.com/courses/search/?q=next.js"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Next.js Tutorial",
+      "url": "https://www.geeksforgeeks.org/nextjs/nextjs-tutorial/"
+    }
+  ],
+  "UI/UX": [
+    {
+      "provider": "Official Documentation",
+      "title": "Material Design",
+      "url": "https://m3.material.io/"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "UI/UX Articles",
+      "url": "https://www.freecodecamp.org/news/tag/ui-ux/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "UI/UX Courses",
+      "url": "https://www.coursera.org/search?query=ui%20ux"
+    },
+    {
+      "provider": "Udemy",
+      "title": "UI/UX Courses",
+      "url": "https://www.udemy.com/courses/search/?q=ui%20ux"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "UI/UX Design",
+      "url": "https://www.geeksforgeeks.org/blogs/ui-ux-design/"
+    }
+  ],
+  "Django": [
+    {
+      "provider": "Official Documentation",
+      "title": "Django Documentation",
+      "url": "https://docs.djangoproject.com/"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Django Articles",
+      "url": "https://www.freecodecamp.org/news/tag/django/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Django Courses",
+      "url": "https://www.coursera.org/search?query=django"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Django Courses",
+      "url": "https://www.udemy.com/courses/search/?q=django"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Django Tutorial",
+      "url": "https://www.geeksforgeeks.org/python/django-tutorial/"
+    },
+    {
+      "provider": "LeetCode",
+      "title": "Python Practice",
+      "url": "https://leetcode.com/problemset/"
+    },
+    {
+      "provider": "HackerRank",
+      "title": "Python Practice",
+      "url": "https://www.hackerrank.com/domains/python"
+    }
+  ],
+  "Flask": [
+    {
+      "provider": "Official Documentation",
+      "title": "Flask Documentation",
+      "url": "https://flask.palletsprojects.com/"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Flask Articles",
+      "url": "https://www.freecodecamp.org/news/tag/flask/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Flask Courses",
+      "url": "https://www.coursera.org/search?query=flask"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Flask Courses",
+      "url": "https://www.udemy.com/courses/search/?q=flask"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Flask Tutorial",
+      "url": "https://www.geeksforgeeks.org/python/flask-tutorial/"
+    },
+    {
+      "provider": "LeetCode",
+      "title": "Python Practice",
+      "url": "https://leetcode.com/problemset/"
+    },
+    {
+      "provider": "HackerRank",
+      "title": "Python Practice",
+      "url": "https://www.hackerrank.com/domains/python"
+    }
+  ],
+  "Excel": [
+    {
+      "provider": "Official Documentation",
+      "title": "Microsoft Excel Help",
+      "url": "https://support.microsoft.com/excel"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Excel Articles",
+      "url": "https://www.freecodecamp.org/news/tag/excel/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Excel Courses",
+      "url": "https://www.coursera.org/search?query=excel"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Excel Courses",
+      "url": "https://www.udemy.com/courses/search/?q=excel"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Excel Tutorial",
+      "url": "https://www.geeksforgeeks.org/excel/excel-tutorial/"
+    }
+  ],
+  "Tableau": [
+    {
+      "provider": "Official Documentation",
+      "title": "Tableau Learning",
+      "url": "https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.htm"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Tableau Articles",
+      "url": "https://www.freecodecamp.org/news/tag/tableau/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Tableau Courses",
+      "url": "https://www.coursera.org/search?query=tableau"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Tableau Courses",
+      "url": "https://www.udemy.com/courses/search/?q=tableau"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Tableau Tutorial",
+      "url": "https://www.geeksforgeeks.org/tableau/tableau-tutorial/"
+    }
+  ],
+  "Power BI": [
+    {
+      "provider": "Official Documentation",
+      "title": "Microsoft Power BI Documentation",
+      "url": "https://learn.microsoft.com/en-us/power-bi/"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Power BI Articles",
+      "url": "https://www.freecodecamp.org/news/tag/power-bi/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Power BI Courses",
+      "url": "https://www.coursera.org/search?query=power%20bi"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Power BI Courses",
+      "url": "https://www.udemy.com/courses/search/?q=power%20bi"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Power BI Tutorial",
+      "url": "https://www.geeksforgeeks.org/power-bi/power-bi-tutorial/"
+    }
+  ],
+  "Data Science": [
+    {
+      "provider": "Official Documentation",
+      "title": "pandas Documentation",
+      "url": "https://pandas.pydata.org/docs/"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Data Analysis with Python",
+      "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Data Science Courses",
+      "url": "https://www.coursera.org/search?query=data%20science"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Data Science Courses",
+      "url": "https://www.udemy.com/courses/search/?q=data%20science"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Data Science Tutorial",
+      "url": "https://www.geeksforgeeks.org/data-science/data-science-tutorial/"
+    },
+    {
+      "provider": "LeetCode",
+      "title": "Database Problems",
+      "url": "https://leetcode.com/problemset/database/"
+    },
+    {
+      "provider": "HackerRank",
+      "title": "SQL Practice",
+      "url": "https://www.hackerrank.com/domains/sql"
+    }
+  ],
+  "GraphQL": [
+    {
+      "provider": "Official Documentation",
+      "title": "GraphQL Learn",
+      "url": "https://graphql.org/learn/"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "GraphQL Articles",
+      "url": "https://www.freecodecamp.org/news/tag/graphql/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "GraphQL Courses",
+      "url": "https://www.coursera.org/search?query=graphql"
+    },
+    {
+      "provider": "Udemy",
+      "title": "GraphQL Courses",
+      "url": "https://www.udemy.com/courses/search/?q=graphql"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "GraphQL Tutorial",
+      "url": "https://www.geeksforgeeks.org/graphql/graphql-tutorial/"
+    }
+  ],
+  "Kubernetes": [
+    {
+      "provider": "Official Documentation",
+      "title": "Kubernetes Tutorials",
+      "url": "https://kubernetes.io/docs/tutorials/"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Kubernetes Articles",
+      "url": "https://www.freecodecamp.org/news/tag/kubernetes/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Kubernetes Courses",
+      "url": "https://www.coursera.org/search?query=kubernetes"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Kubernetes Courses",
+      "url": "https://www.udemy.com/courses/search/?q=kubernetes"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Kubernetes Tutorial",
+      "url": "https://www.geeksforgeeks.org/devops/kubernetes-tutorial/"
+    }
+  ],
+  "Firebase": [
+    {
+      "provider": "Official Documentation",
+      "title": "Firebase Documentation",
+      "url": "https://firebase.google.com/docs"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Firebase Articles",
+      "url": "https://www.freecodecamp.org/news/tag/firebase/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Firebase Courses",
+      "url": "https://www.coursera.org/search?query=firebase"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Firebase Courses",
+      "url": "https://www.udemy.com/courses/search/?q=firebase"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Firebase Tutorial",
+      "url": "https://www.geeksforgeeks.org/firebase/firebase-tutorial/"
+    }
+  ],
+  "Figma": [
+    {
+      "provider": "Official Documentation",
+      "title": "Figma Learn",
+      "url": "https://help.figma.com/hc/en-us/categories/360002051613-Get-started"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Figma Articles",
+      "url": "https://www.freecodecamp.org/news/tag/figma/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Figma Courses",
+      "url": "https://www.coursera.org/search?query=figma"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Figma Courses",
+      "url": "https://www.udemy.com/courses/search/?q=figma"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Figma Tutorial",
+      "url": "https://www.geeksforgeeks.org/blogs/figma-tutorial/"
+    }
+  ],
+  "Java": [
+    {
+      "provider": "Official Documentation",
+      "title": "Java Documentation",
+      "url": "https://docs.oracle.com/en/java/"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Java Articles",
+      "url": "https://www.freecodecamp.org/news/tag/java/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Java Courses",
+      "url": "https://www.coursera.org/search?query=java"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Java Courses",
+      "url": "https://www.udemy.com/courses/search/?q=java"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Java Tutorial",
+      "url": "https://www.geeksforgeeks.org/java/java/"
+    },
+    {
+      "provider": "LeetCode",
+      "title": "Java Practice",
+      "url": "https://leetcode.com/problemset/"
+    },
+    {
+      "provider": "HackerRank",
+      "title": "Java Practice",
+      "url": "https://www.hackerrank.com/domains/java"
+    }
+  ],
+  "C++": [
+    {
+      "provider": "Official Documentation",
+      "title": "C++ Reference",
+      "url": "https://en.cppreference.com/w/"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "C++ Articles",
+      "url": "https://www.freecodecamp.org/news/tag/c-plus-plus/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "C++ Courses",
+      "url": "https://www.coursera.org/search?query=c%2B%2B"
+    },
+    {
+      "provider": "Udemy",
+      "title": "C++ Courses",
+      "url": "https://www.udemy.com/courses/search/?q=c%2B%2B"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "C++ Tutorial",
+      "url": "https://www.geeksforgeeks.org/cpp/c-plus-plus/"
+    },
+    {
+      "provider": "LeetCode",
+      "title": "C++ Practice",
+      "url": "https://leetcode.com/problemset/"
+    },
+    {
+      "provider": "HackerRank",
+      "title": "C++ Practice",
+      "url": "https://www.hackerrank.com/domains/cpp"
+    }
+  ],
+  "Agile": [
+    {
+      "provider": "Official Documentation",
+      "title": "Agile Alliance Agile 101",
+      "url": "https://www.agilealliance.org/agile101/"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Agile Articles",
+      "url": "https://www.freecodecamp.org/news/tag/agile/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Agile Courses",
+      "url": "https://www.coursera.org/search?query=agile"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Agile Courses",
+      "url": "https://www.udemy.com/courses/search/?q=agile"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Agile Software Development",
+      "url": "https://www.geeksforgeeks.org/software-engineering/agile-software-development/"
+    }
+  ],
+  "Communication": [
+    {
+      "provider": "Official Documentation",
+      "title": "Toastmasters Public Speaking Tips",
+      "url": "https://www.toastmasters.org/resources/public-speaking-tips"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Communication Articles",
+      "url": "https://www.freecodecamp.org/news/tag/communication/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Communication Courses",
+      "url": "https://www.coursera.org/search?query=communication%20skills"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Communication Courses",
+      "url": "https://www.udemy.com/courses/search/?q=communication%20skills"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Communication Skills",
+      "url": "https://www.geeksforgeeks.org/blogs/communication-skills/"
+    }
+  ],
+  "React Native": [
+    {
+      "provider": "Official Documentation",
+      "title": "React Native Docs",
+      "url": "https://reactnative.dev/docs/getting-started"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "React Native Articles",
+      "url": "https://www.freecodecamp.org/news/tag/react-native/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "React Native Courses",
+      "url": "https://www.coursera.org/search?query=react%20native"
+    },
+    {
+      "provider": "Udemy",
+      "title": "React Native Courses",
+      "url": "https://www.udemy.com/courses/search/?q=react%20native"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "React Native Tutorial",
+      "url": "https://www.geeksforgeeks.org/react-native/react-native-tutorial/"
+    }
+  ],
+  "Swift": [
+    {
+      "provider": "Official Documentation",
+      "title": "Swift Documentation",
+      "url": "https://www.swift.org/documentation/"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Swift Articles",
+      "url": "https://www.freecodecamp.org/news/tag/swift/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Swift Courses",
+      "url": "https://www.coursera.org/search?query=swift"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Swift Courses",
+      "url": "https://www.udemy.com/courses/search/?q=swift"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Swift Tutorial",
+      "url": "https://www.geeksforgeeks.org/swift/swift-tutorial/"
+    },
+    {
+      "provider": "LeetCode",
+      "title": "Programming Practice",
+      "url": "https://leetcode.com/problemset/"
+    },
+    {
+      "provider": "HackerRank",
+      "title": "Problem Solving Practice",
+      "url": "https://www.hackerrank.com/domains/algorithms"
+    }
+  ],
+  "Kotlin": [
+    {
+      "provider": "Official Documentation",
+      "title": "Kotlin Documentation",
+      "url": "https://kotlinlang.org/docs/home.html"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Kotlin Articles",
+      "url": "https://www.freecodecamp.org/news/tag/kotlin/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Kotlin Courses",
+      "url": "https://www.coursera.org/search?query=kotlin"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Kotlin Courses",
+      "url": "https://www.udemy.com/courses/search/?q=kotlin"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Kotlin Tutorial",
+      "url": "https://www.geeksforgeeks.org/kotlin/kotlin-programming-language/"
+    },
+    {
+      "provider": "LeetCode",
+      "title": "Programming Practice",
+      "url": "https://leetcode.com/problemset/"
+    },
+    {
+      "provider": "HackerRank",
+      "title": "Problem Solving Practice",
+      "url": "https://www.hackerrank.com/domains/algorithms"
+    }
+  ],
+  "Mobile Design": [
+    {
+      "provider": "Official Documentation",
+      "title": "Material Design",
+      "url": "https://m3.material.io/"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Mobile Design Articles",
+      "url": "https://www.freecodecamp.org/news/tag/design/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Mobile Design Courses",
+      "url": "https://www.coursera.org/search?query=mobile%20design"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Mobile Design Courses",
+      "url": "https://www.udemy.com/courses/search/?q=mobile%20design"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Mobile App Design",
+      "url": "https://www.geeksforgeeks.org/blogs/mobile-app-design/"
+    }
+  ],
+  "Statistics": [
+    {
+      "provider": "Official Documentation",
+      "title": "NIST Engineering Statistics Handbook",
+      "url": "https://www.itl.nist.gov/div898/handbook/"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "title": "Statistics Articles",
+      "url": "https://www.freecodecamp.org/news/tag/statistics/"
+    },
+    {
+      "provider": "Coursera",
+      "title": "Statistics Courses",
+      "url": "https://www.coursera.org/search?query=statistics"
+    },
+    {
+      "provider": "Udemy",
+      "title": "Statistics Courses",
+      "url": "https://www.udemy.com/courses/search/?q=statistics"
+    },
+    {
+      "provider": "GeeksforGeeks",
+      "title": "Statistics Tutorial",
+      "url": "https://www.geeksforgeeks.org/maths/statistics/"
+    },
+    {
+      "provider": "LeetCode",
+      "title": "Database Problems",
+      "url": "https://leetcode.com/problemset/database/"
+    },
+    {
+      "provider": "HackerRank",
+      "title": "SQL Practice",
+      "url": "https://www.hackerrank.com/domains/sql"
+    }
+  ]
+}
